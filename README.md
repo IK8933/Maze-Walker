@@ -1,2 +1,1 @@
-# Maze-Walker
-Retro 3D-maze app
+# MAZE-WALKER
