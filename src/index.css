@@ -1,4 +1,18 @@
 body {
     background-color: rgb(53, 85, 112);
     color: rgb(237, 231, 200);
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+}
+
+#canvas-container {
+    height: 100%;
 }
