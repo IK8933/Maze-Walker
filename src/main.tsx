@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 
 import App from './App.tsx'
-import Landing from './pages/Landing.tsx';
+// import Landing from './pages/Landing.tsx';
 import GameBoard from './pages/GameBoard.tsx';
 import Error from './pages/Error.tsx';
 
@@ -15,7 +15,8 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Landing />,
+        element: <GameBoard />,
+        // element: <Landing />,
       },
       {
         path: '/game',
