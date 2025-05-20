@@ -1,5 +1,7 @@
 export default function GameBoard() {
     return (
-        <div>GameBoard</div>
+        <>
+            <h1>GAME BOARD PLACEHOLDER</h1>
+        </>
     )
 }
